@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b4c29ddb3cf21d4e9b0596a8ba26af7, type: 3}
+  m_Name: ItemDatabase
+  m_EditorClassIdentifier: 
+  itemList:
+  - itemName: 
+    itemID: 0
+    itemDesc: 'If you drink this nice bottle you will get some health back.
+
+
+      +
+      20 Health'
+    itemIcon: {fileID: 0}
+    itemModel: {fileID: 0}
+    itemValue: 1
+    itemType: 2
+    itemWeight: 0
+    maxStack: 0
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: "Ep\xE9e en fer"
+    itemID: 1
+    itemDesc: "Une \xE9p\xE9e qui permet de se battre. "
+    itemIcon: {fileID: 21300000, guid: 058210a775bf01e4ba5ca0247dfeb897, type: 3}
+    itemModel: {fileID: 2430505031134882776, guid: 5b504d0943bee7548973daad83958eeb, type: 3}
+    itemValue: 200
+    itemType: 1
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 50
+    itemAttributes:
+    - attributeName: Damage
+      attributeValue: 10
+  - itemName: Casque en fer
+    itemID: 2
+    itemDesc: "Un casque en fer qui permet de reduire les d\xE9gats."
+    itemIcon: {fileID: 21300000, guid: 98f5e61dc86e9814d8c8d9e8e54ac417, type: 3}
+    itemModel: {fileID: 6967214275673523231, guid: 30aac868e35219f419bb6fbf87901142, type: 3}
+    itemValue: 1000
+    itemType: 4
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 50
+    itemAttributes:
+    - attributeName: Armor
+      attributeValue: 10
+  - itemName: Bracelet en fer
+    itemID: 3
+    itemDesc: "Des bracelet qui permettent de reduire les d\xE9gats."
+    itemIcon: {fileID: 21300000, guid: 9e108c3d338a850449f80cf654004b28, type: 3}
+    itemModel: {fileID: 1540884619046383508, guid: d2d2d9178a753854eb62ded358ad63fd, type: 3}
+    itemValue: 1000
+    itemType: 11
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 50
+    itemAttributes:
+    - attributeName: Armor
+      attributeValue: 15
+  - itemName: 'Katana '
+    itemID: 4
+    itemDesc: "Un puissant katana qui permet de pourfendre les \xE9nnemis."
+    itemIcon: {fileID: 21300000, guid: 5168978829fa5fb49b547ca26997095c, type: 3}
+    itemModel: {fileID: 6140082328542314072, guid: 36256736bcacc1c489374af6bbca5509, type: 3}
+    itemValue: 1500
+    itemType: 1
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 1
+    itemAttributes:
+    - attributeName: Damage
+      attributeValue: 20
+  - itemName: Bracelet Simple
+    itemID: 5
+    itemDesc: Des gatelet basique en cuir pour ce proteger des ennemis.
+    itemIcon: {fileID: 21300000, guid: 3314daa31094a8348a6bbc2f9f450148, type: 3}
+    itemModel: {fileID: 2675301273764893705, guid: 941bdecfbff3ca949a6ccd56461ac3fc, type: 3}
+    itemValue: 500
+    itemType: 11
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 50
+    itemAttributes:
+    - attributeName: Armor
+      attributeValue: 10
+  - itemName: Potion de soin
+    itemID: 6
+    itemDesc: Une petite potion qui permet de se soigner de 10 pv.
+    itemIcon: {fileID: 21300000, guid: 43703bcfcf2f7b64e8887eea229215ba, type: 3}
+    itemModel: {fileID: 3095530747288476950, guid: d3b5232e19f0ab14986ec7e0636a4782, type: 3}
+    itemValue: 100
+    itemType: 2
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 50
+    itemAttributes:
+    - attributeName: Health
+      attributeValue: 20
+  - itemName: Potion de mana
+    itemID: 7
+    itemDesc: Une petite potion qui permet de se soigner de 10 pm.
+    itemIcon: {fileID: 21300000, guid: b50b97c8f9c10a3499187da7c6bdd61d, type: 3}
+    itemModel: {fileID: 4180649557290701681, guid: fce7568c918650542b932cbff02e18d9, type: 3}
+    itemValue: 100
+    itemType: 2
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 50
+    itemAttributes:
+    - attributeName: Mana
+      attributeValue: 40
