@@ -158,6 +158,8 @@ public class EnemyAi : MonoBehaviour
         GameObject finalLoot = loots[randomLootIndex];  
         Instantiate(finalLoot, transform.position, transform.rotation);
 
+        Target.GetComponent<PlayerInventory>().currentXP += 50;
+        Target.GetComponent<PlayerInventory>().enemyKillNumber++;
         Destroy(gameObject, 2f);
     }
 }

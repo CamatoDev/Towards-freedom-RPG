@@ -47,6 +47,9 @@ public class PlayerInventory : MonoBehaviour
     public float rateXP;
     public Text xpText;
 
+    // Compteur du nombre d'ennemi tué
+    public int enemyKillNumber;
+
     // Gestion de l'argent du joueur 
     [Header("Player Money")]
     public int playerMoney;
@@ -179,6 +182,8 @@ public class PlayerInventory : MonoBehaviour
 
     void Start()
     {
+        enemyKillNumber = 0;
+
         hpImage = GameObject.Find("currentHP").GetComponent<Image>();
         manaImage = GameObject.Find("currentMana").GetComponent<Image>();
         
