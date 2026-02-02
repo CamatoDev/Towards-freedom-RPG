@@ -59,6 +59,9 @@ public class CameraController : MonoBehaviour
         transform.position = focusPosition - targetRotation * new Vector3(0, 0, distance);
         transform.rotation = targetRotation;
 
+        //Position du joueur 
+        //follow_target.rotation = targetRotation;
+
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             Cursor.visible = false;

@@ -133,12 +133,38 @@ public class CharacterMotor : MonoBehaviour
             if (Input.GetKey(inputLeft))
             {
                 transform.Rotate(0, turnSpeed * Time.deltaTime, 0);
+                //transform.Translate(walkSpeed * Time.deltaTime, 0, 0);
+                //if (!isAttacking)
+                //{
+                //    animations.Play("walk");
+                //}
+                //if (Input.GetKeyDown(KeyCode.Mouse0))
+                //{
+                //    Attack();
+                //}
+                //if (Input.GetKeyDown(KeyCode.Mouse1))
+                //{
+                //    Spell();
+                //}
             }
 
             // aller à droite 
             if (Input.GetKey(inputRight))
             {
                 transform.Rotate(0, -turnSpeed * Time.deltaTime, 0);
+                //transform.Translate(-walkSpeed * Time.deltaTime, 0, 0);
+                //if (!isAttacking)
+                //{
+                //    animations.Play("walk");
+                //}
+                //if (Input.GetKeyDown(KeyCode.Mouse0))
+                //{
+                //    Attack();
+                //}
+                //if (Input.GetKeyDown(KeyCode.Mouse1))
+                //{
+                //    Spell();
+                //}
             }
 
             // au repos

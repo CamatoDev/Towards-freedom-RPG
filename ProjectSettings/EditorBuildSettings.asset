@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/SiuniaevCharacters/Scenes/TestScene.unity
+    path: Assets/Scenes/TestScene.unity
     guid: f7d197a8c40793d43b548ed8982739f4
   m_configObjects: {}
